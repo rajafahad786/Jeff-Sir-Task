@@ -1,0 +1,74 @@
+.section_A {
+    background: url(../images/section-1.jpg) no-repeat center top;
+    margin: 0 auto;
+    height: 647px;
+    min-width: 1060px;
+	}
+.inner_section{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+
+}
+.form_container {
+	width:27%;
+	float:right;
+	margin-right:5%;
+	margin-top:80px;
+ 	height:500px;
+}
+.form_container .label{
+	color: #000;
+    text-align: right;
+    font: 14px Tahoma;
+    text-transform: uppercase;
+    padding: 1px 0 1px 0;
+}
+.form_container input[type=text], select {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #cdcdcd;
+    font: 13px arial;
+    height: 22px;
+    margin: 4px 0 3px 8px;
+    width: 157px;
+}
+
+.section_B {
+    background: url(../images/section-2.jpg) no-repeat center top;
+    margin: 0 auto;
+    height: 496px;
+	float:left;
+    min-width: 1060px;
+}
+.section_B .inner_section p {
+    color: #000000;
+    font: 16px/1.4 arial;
+    padding-top: 88px;
+    text-align: justify;
+    white-space: pre-line;
+    width: 50%;
+}
+#pg1_submit {
+    background: url(../images/submit-bt.png) no-repeat center top;
+    width: 300px;
+    height: 86px;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+}
+
+.label a {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+p {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    text-rendering: optimizeLegibility;
+}
+a:hover, a:focus {
+    color: #333;
+}
